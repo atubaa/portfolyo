@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{ 
+    margin: 0;
+    padding: 0;
+    background: url(images.jpg);
+    background-size:cover;
+}
+.box{
+    width: 40%;
+  
+    text-align: center;
+   flex-direction: column;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    border: 1px solid white;
+    background-color: gray;
+}
+
+.box img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+.box img:hover{
+    transform: scale(0.9);
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.box h5{
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 50;
+}
+.box p{
+    text-align:justify ;
+}
+.box li{ 
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.box li a{
+    color: white;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+    color: rgb(73, 73, 73);
+}
+.kutu{
+    width: 60%;
+    background:url(download.jpg);
+  background-size: cover;
+    text-align:center;
+  
+    display: flex;
+
+}
+
+.foto {
+display: flex;
+justify-content: center;
+
+
+}
+
+.kutu h2{
+    font-size: 30px;
+    font-weight: 70;
+    letter-spacing: 1px;
+    color: white;
+    
+}
+.menu{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: 3px solid gray;
+    margin-top: 5%;
+    height: 600px;
+}
+.kutu {
+    align-items: flex-end;
+}
+.kutu a{
+    color:gray;
+    font-size: 60px;
+}
+.ad {
+    height: 80px;
+}
+.okul { 
+    height: 80px;
+}
+.same{
+    display: flex;
+    width: 900px;
+    height: 900px;
+    margin-top: 2%;
+    
+}
+.boşluk{
+    display: flex;
+    width: 500px;
+    height: 10px;
+}
+.yeter{
+    display: flex;
+    flex-direction: row;
+}
